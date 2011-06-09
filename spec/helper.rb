@@ -1,10 +1,8 @@
-require 'simplecov'
-SimpleCov.start
-require File.expand_path('../../lib/fcc_reboot', __FILE__)
-require 'rspec'
+require 'rubygems'
+require 'bundler/setup'
+require 'webmock'
 require 'webmock/rspec'
-
-require 'fcc_reboot'
+require 'scrumninja'
 
 RSpec.configure do |config|
   config.include WebMock::API

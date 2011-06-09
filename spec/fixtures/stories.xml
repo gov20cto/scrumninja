@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stories type="array">
+  <story>
+    <accepted-on type="date" nil="true"></accepted-on>
+    <complexity>CHORE</complexity>
+    <content nil="true"></content>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <delivered-on type="date" nil="true"></delivered-on>
+    <id type="integer">139444</id>
+    <name>Infrastructure for project</name>
+    <owner-user-id type="integer" nil="true"></owner-user-id>
+    <position type="float">1.0</position>
+    <rejection-reason nil="true"></rejection-reason>
+    <status>pending</status>
+    <story-collection-id type="integer">26248</story-collection-id>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <hours_remaining>2.5</hours_remaining>
+    <link href="http://scrumninja.com/projects/8991/stories/139444.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+    <link href="http://scrumninja.com/stories/139444/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+  </story>
+  <story>
+    <accepted-on type="date" nil="true"></accepted-on>
+    <complexity>3</complexity>
+    <content>As a user, I want to register so that I can gain access to the system</content>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <delivered-on type="date" nil="true"></delivered-on>
+    <id type="integer">139445</id>
+    <name>Signup</name>
+    <owner-user-id type="integer" nil="true"></owner-user-id>
+    <position type="float">3.0</position>
+    <rejection-reason nil="true"></rejection-reason>
+    <status>pending</status>
+    <story-collection-id type="integer">26248</story-collection-id>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <hours_remaining>12.0</hours_remaining>
+    <link href="http://scrumninja.com/projects/8991/stories/139445.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+    <link href="http://scrumninja.com/stories/139445/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+  </story>
+  <story>
+    <accepted-on type="date" nil="true"></accepted-on>
+    <complexity>3</complexity>
+    <content>As a user, I want to login so I can protect my info from the public eye </content>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <delivered-on type="date" nil="true"></delivered-on>
+    <id type="integer">139446</id>
+    <name>Login Form</name>
+    <owner-user-id type="integer" nil="true"></owner-user-id>
+    <position type="float">4.0</position>
+    <rejection-reason nil="true"></rejection-reason>
+    <status>pending</status>
+    <story-collection-id type="integer">26248</story-collection-id>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <hours_remaining>5.0</hours_remaining>
+    <link href="http://scrumninja.com/projects/8991/stories/139446.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+    <link href="http://scrumninja.com/stories/139446/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+  </story>
+</stories>
