@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects type="array">
+  <project>
+    <created-at type="datetime">2011-01-11T02:24:05-05:00</created-at>
+    <created-by-user-id type="integer">6829</created-by-user-id>
+    <future-by-average type="boolean">true</future-by-average>
+    <id type="integer">7722</id>
+    <name>Platform</name>
+    <numeric-complexities type="yaml">--- 
+- "1"
+- "2"
+- "3"
+- "5"
+- "8"
+- "13"
+- "20"
+- "40"
+- "100"
+</numeric-complexities>
+    <open-source-url></open-source-url>
+    <page-views type="integer">7</page-views>
+    <ssl type="boolean">false</ssl>
+    <time-zone>Pacific Time (US &amp; Canada)</time-zone>
+    <total-page-views type="integer">2661</total-page-views>
+    <track-only-story-points type="boolean">false</track-only-story-points>
+    <updated-at type="datetime">2011-06-09T14:41:02-04:00</updated-at>
+    <updated-by-user-id type="integer">7037</updated-by-user-id>
+    <work-days type="yaml">--- 
+- 1
+- 2
+- 3
+- 4
+- 5
+</work-days>
+    <link href="http://scrumninja.com/projects/7722.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="show" rel="self"/>
+    <link href="http://scrumninja.com/projects/7722/project_roles.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="project roles" rel="users"/>
+    <link href="http://scrumninja.com/projects/7722/stories.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="stories in current sprint" rel="stories"/>
+    <link type="text/plain" href="http://scrumninja.com/projects/7722/export?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="export" rel="self"/>
+    <link href="http://scrumninja.com/projects/7722/backlog/index.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="future stories" rel="stories"/>
+    <link href="http://scrumninja.com/projects/7722/sprints.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="sprint history" rel="sprints"/>
+  </project>
+  <project>
+    <created-at type="datetime">2011-02-03T13:10:14-05:00</created-at>
+    <created-by-user-id type="integer">6829</created-by-user-id>
+    <future-by-average type="boolean">true</future-by-average>
+    <id type="integer">7991</id>
+    <name>Citizen Participation Suite</name>
+    <numeric-complexities type="yaml">--- 
+- "1"
+- "2"
+- "3"
+- "5"
+- "8"
+- "13"
+- "20"
+- "40"
+- "100"
+</numeric-complexities>
+    <open-source-url></open-source-url>
+    <page-views type="integer">3</page-views>
+    <ssl type="boolean">false</ssl>
+    <time-zone>Pacific Time (US &amp; Canada)</time-zone>
+    <total-page-views type="integer">92</total-page-views>
+    <track-only-story-points type="boolean">true</track-only-story-points>
+    <updated-at type="datetime">2011-06-09T12:04:14-04:00</updated-at>
+    <updated-by-user-id type="integer">7040</updated-by-user-id>
+    <work-days type="yaml">--- 
+- 1
+- 2
+- 3
+- 4
+- 5
+</work-days>
+    <link href="http://scrumninja.com/projects/7991.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="show" rel="self"/>
+    <link href="http://scrumninja.com/projects/7991/project_roles.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="project roles" rel="users"/>
+    <link href="http://scrumninja.com/projects/7991/stories.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="stories in current sprint" rel="stories"/>
+    <link type="text/plain" href="http://scrumninja.com/projects/7991/export?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="export" rel="self"/>
+    <link href="http://scrumninja.com/projects/7991/backlog/index.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="future stories" rel="stories"/>
+    <link href="http://scrumninja.com/projects/7991/sprints.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="sprint history" rel="sprints"/>
+  </project>
+  <project>
+    <created-at type="datetime">2011-03-09T20:37:31-05:00</created-at>
+    <created-by-user-id type="integer">7041</created-by-user-id>
+    <future-by-average type="boolean">true</future-by-average>
+    <id type="integer">8273</id>
+    <name>Training Suite</name>
+    <numeric-complexities type="yaml">--- 
+- "1"
+- "2"
+- "3"
+- "5"
+- "8"
+- "13"
+- "20"
+- "40"
+- "100"
+</numeric-complexities>
+    <open-source-url></open-source-url>
+    <page-views type="integer">0</page-views>
+    <ssl type="boolean" nil="true"></ssl>
+    <time-zone>Pacific Time (US &amp; Canada)</time-zone>
+    <total-page-views type="integer">10</total-page-views>
+    <track-only-story-points type="boolean">false</track-only-story-points>
+    <updated-at type="datetime">2011-06-02T04:03:22-04:00</updated-at>
+    <updated-by-user-id type="integer" nil="true"></updated-by-user-id>
+    <work-days type="yaml">--- 
+- 1
+- 2
+- 3
+- 4
+- 5
+</work-days>
+    <link href="http://scrumninja.com/projects/8273.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="show" rel="self"/>
+    <link href="http://scrumninja.com/projects/8273/project_roles.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="project roles" rel="users"/>
+    <link href="http://scrumninja.com/projects/8273/stories.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="stories in current sprint" rel="stories"/>
+    <link type="text/plain" href="http://scrumninja.com/projects/8273/export?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="export" rel="self"/>
+    <link href="http://scrumninja.com/projects/8273/backlog/index.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="future stories" rel="stories"/>
+    <link href="http://scrumninja.com/projects/8273/sprints.xml?api_key=c17bafe18ce469e3a4300873de284dc24e3fcb78" title="sprint history" rel="sprints"/>
+  </project>
+</projects>
