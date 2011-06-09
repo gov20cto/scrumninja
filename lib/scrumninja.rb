@@ -1,5 +1,5 @@
-require ::File.expand_path('../scrumninja/version.rb', __FILE__)
-require ::File.expand_path('../scrumninja/client.rb', __FILE__)
+require 'scrumninja/client'
+require 'scrumninja/version'
 
 module ScrumNinja
   # Alias for FccReboot::Client.new
