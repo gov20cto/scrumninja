@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprints type="array">
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>5</complexity>
+        <content>As a user, I want to reset my password in the event that I forget it so that I won't get locked out</content>
+        <created-at type="datetime">2011-06-09T12:02:26-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139447</id>
+        <name>Reset Password</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">2.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:26-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>6.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139447.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139447/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-06-23</date-start>
+    <number type="integer">1</number>
+    <date-finish type="date">2011-07-06</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>13</complexity>
+        <content>As a user, I want to write an article, so that I can share it with other users</content>
+        <created-at type="datetime">2011-06-09T12:02:26-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139448</id>
+        <name>Create Article</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">5.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:26-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>8.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139448.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139448/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-07-07</date-start>
+    <number type="integer">2</number>
+    <date-finish type="date">2011-07-20</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>8</complexity>
+        <content>As a user, I want to upload a photo, so that I can share it with other users</content>
+        <created-at type="datetime">2011-06-09T12:02:26-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139449</id>
+        <name>Upload Photo</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">6.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:26-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>8.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139449.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139449/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-07-21</date-start>
+    <number type="integer">3</number>
+    <date-finish type="date">2011-08-03</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>5</complexity>
+        <content>As a user, I want to browse other users' articles because I want to see content</content>
+        <created-at type="datetime">2011-06-09T12:02:26-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139450</id>
+        <name>Browse Articles</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">7.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:26-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>8.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139450.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139450/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>BUG</complexity>
+        <content nil="true"></content>
+        <created-at type="datetime">2011-06-09T12:02:27-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139451</id>
+        <name>Fix Bugs</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">8.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:27-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>2.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139451.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139451/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-08-04</date-start>
+    <number type="integer">4</number>
+    <date-finish type="date">2011-08-17</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>5</complexity>
+        <content>As a user, I want to browse other users' photos because I want to see content</content>
+        <created-at type="datetime">2011-06-09T12:02:27-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139452</id>
+        <name>Browse Photos</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">9.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:27-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>8.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139452.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139452/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-08-18</date-start>
+    <number type="integer">5</number>
+    <date-finish type="date">2011-08-31</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>5</complexity>
+        <content>As a user, I want to submit my profile so others with similar interests can find me</content>
+        <created-at type="datetime">2011-06-09T12:02:27-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139453</id>
+        <name>User Profile</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">10.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:27-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>8.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139453.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139453/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>3</complexity>
+        <content>As a user, I want to view other user's profiles so I can find users with similar interests</content>
+        <created-at type="datetime">2011-06-09T12:02:27-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139454</id>
+        <name>Browse Profiles</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">11.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:27-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>12.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139454.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139454/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-09-01</date-start>
+    <number type="integer">6</number>
+    <date-finish type="date">2011-09-14</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>3</complexity>
+        <content>As a user, I want to search other user's profiles so I can find users with similar interests</content>
+        <created-at type="datetime">2011-06-09T12:02:27-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139455</id>
+        <name>Search Profiles</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">12.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:27-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>12.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139455.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139455/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>3</complexity>
+        <content>As a user, I want to flag content that I deem inappropriate, so we can preserve a positive user experience</content>
+        <created-at type="datetime">2011-06-09T12:02:27-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139456</id>
+        <name>Flagging</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">13.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:27-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>7.0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139456.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139456/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-09-15</date-start>
+    <number type="integer">7</number>
+    <date-finish type="date">2011-09-28</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>3</complexity>
+        <content>As an admin, I want to be able to see newly signed up users so that I can track system growth</content>
+        <created-at type="datetime">2011-06-09T12:02:28-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139457</id>
+        <name>Track new signups</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">14.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:28-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139457.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139457/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>5</complexity>
+        <content>As an admin, I want to view the flags on each piece of content so I can stay on top of spam </content>
+        <created-at type="datetime">2011-06-09T12:02:28-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139458</id>
+        <name>Admin View Flagged Content</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">15.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:28-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139458.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139458/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-09-29</date-start>
+    <number type="integer">8</number>
+    <date-finish type="date">2011-10-12</date-finish>
+  </sprint>
+  <sprint>
+    <stories type="array">
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>2</complexity>
+        <content>As an admin, I want to view the users by number of flags so I can see who is producing flagged content and ban them</content>
+        <created-at type="datetime">2011-06-09T12:02:28-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139459</id>
+        <name>Admin View Flagged Users</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">16.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:28-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139459.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139459/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+      <story>
+        <accepted-on type="date" nil="true"></accepted-on>
+        <complexity>3</complexity>
+        <content>As an admin, I want to ban users with highly flagged content so I can preserve a positive user experience</content>
+        <created-at type="datetime">2011-06-09T12:02:28-07:00</created-at>
+        <created-by-user-id type="integer">8218</created-by-user-id>
+        <delivered-on type="date" nil="true"></delivered-on>
+        <id type="integer">139460</id>
+        <name>Admin Ban Users</name>
+        <owner-user-id type="integer" nil="true"></owner-user-id>
+        <position type="float">17.0</position>
+        <rejection-reason nil="true"></rejection-reason>
+        <status>pending</status>
+        <story-collection-id type="integer">26247</story-collection-id>
+        <updated-at type="datetime">2011-06-09T12:02:28-07:00</updated-at>
+        <updated-by-user-id type="integer">8218</updated-by-user-id>
+        <hours_remaining>0</hours_remaining>
+        <link href="http://scrumninja.com/projects/8991/stories/139460.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+        <link href="http://scrumninja.com/stories/139460/tasks.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" rel="tasks"/>
+      </story>
+    </stories>
+    <date-start type="date">2011-10-13</date-start>
+    <number type="integer">9</number>
+    <date-finish type="date">2011-10-26</date-finish>
+  </sprint>
+</sprints>

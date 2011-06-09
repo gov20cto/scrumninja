@@ -11,9 +11,24 @@ module ScrumNinja
       response.projects
     end
     
-    def stories(project_id,options={})
+    def project_stories(project_id,options={})
       response = get "http://scrumninja.com/projects/#{project_id}/stories.xml", options
       response.stories
+    end
+    
+    def project_backlog(project_id,options={})
+      response = get "http://scrumninja.com/projects/#{project_id}/backlog/index.xml", options
+      response.sprints
+    end
+    
+    def project_card_wall(project_id,options={})
+      response = get "http://scrumninja.com/projects/#{project_id}/card_wall.xml", options
+      response.tasks
+    end
+    
+    def story_tasks(story_id,options={})
+      response = get "http://scrumninja.com/stories/#{story_id}/tasks.xml", options
+      response.tasks
     end
     
     private

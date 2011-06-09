@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks type="array">
+  <task>
+    <assigned-to-user-id type="integer" nil="true"></assigned-to-user-id>
+    <blocked type="boolean">false</blocked>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <done-at type="datetime" nil="true"></done-at>
+    <id type="integer">331729</id>
+    <name>configure database.yml</name>
+    <position type="float">1.0</position>
+    <started-at type="datetime" nil="true"></started-at>
+    <story-id type="integer">139444</story-id>
+    <task-status-id type="integer">23299</task-status-id>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <assigned-to-user-name></assigned-to-user-name>
+    <status>pending</status>
+    <estimates>
+      <estimate>
+        <date>2011-06-09</date>
+        <hours>0.5</hours>
+      </estimate>
+    </estimates>
+    <hours_remaining>0.5</hours_remaining>
+    <link href="http://scrumninja.com/stories/139444/tasks/331729.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+  </task>
+  <task>
+    <assigned-to-user-id type="integer" nil="true"></assigned-to-user-id>
+    <blocked type="boolean">false</blocked>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <done-at type="datetime" nil="true"></done-at>
+    <id type="integer">331730</id>
+    <name>create mysql database</name>
+    <position type="float">2.0</position>
+    <started-at type="datetime" nil="true"></started-at>
+    <story-id type="integer">139444</story-id>
+    <task-status-id type="integer">23299</task-status-id>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <assigned-to-user-name></assigned-to-user-name>
+    <status>pending</status>
+    <estimates>
+      <estimate>
+        <date>2011-06-09</date>
+        <hours>1.0</hours>
+      </estimate>
+    </estimates>
+    <hours_remaining>1.0</hours_remaining>
+    <link href="http://scrumninja.com/stories/139444/tasks/331730.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+  </task>
+  <task>
+    <assigned-to-user-id type="integer" nil="true"></assigned-to-user-id>
+    <blocked type="boolean">false</blocked>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <done-at type="datetime" nil="true"></done-at>
+    <id type="integer">331731</id>
+    <name>migration for user model</name>
+    <position type="float">3.0</position>
+    <started-at type="datetime" nil="true"></started-at>
+    <story-id type="integer">139444</story-id>
+    <task-status-id type="integer">23299</task-status-id>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <assigned-to-user-name></assigned-to-user-name>
+    <status>pending</status>
+    <estimates>
+      <estimate>
+        <date>2011-06-09</date>
+        <hours>1.0</hours>
+      </estimate>
+    </estimates>
+    <hours_remaining>1.0</hours_remaining>
+    <link href="http://scrumninja.com/stories/139444/tasks/331731.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+  </task>
+</tasks>
