@@ -7,6 +7,7 @@ ScrumNinja is a scrum management tool that allows you to easily manage plan spri
 == Usage
 
 First:
+
 <tt>gem install scrumninja</tt>
 
 Then:
@@ -19,15 +20,13 @@ You can generate your API key at scrumninja.com under your account settings. Ret
 
 Other methods supported are:
 
-<tt>
-my_stories = ScrumNinja.project_stories(my_api_key,project_id) # returns stories in the given project's current sprint.
+<tt>my_stories = ScrumNinja.project_stories(my_api_key,project_id) # returns stories in the given project's current sprint.</tt>
 
-sprints = ScrumNinja.project_backlog(my_api_key,project_id) # returns sprints (and related stories) in the given project's backlog.
+<tt>sprints = ScrumNinja.project_backlog(my_api_key,project_id) # returns sprints (and related stories) in the given project's backlog.</tt>
 
-tasks = ScrumNinja.project_card_wall(my_api_key,project_id) # returns the card wall for the current sprint, represented as tasks.
+<tt>tasks = ScrumNinja.project_card_wall(my_api_key,project_id) # returns the card wall for the current sprint, represented as tasks.</tt>
 
-tasks = ScrumNinja.story_tasks(my_api_key,story_id) # returns the tasks for the specified story.
-</tt>
+<tt>tasks = ScrumNinja.story_tasks(my_api_key,story_id) # returns the tasks for the specified story.</tt>
 
 == Compatibility
 
