@@ -25,4 +25,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('multi_xml', '~> 0.2.0')
   
   s.add_dependency('faraday_middleware', '~> 0.6.0')
+  s.add_dependency('hashie', '~> 1.0.0')
+  s.add_dependency('multi_xml', '~> 0.2.0')
 end

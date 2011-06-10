@@ -4,13 +4,38 @@
 
 ScrumNinja is a scrum management tool that allows you to easily manage plan sprints, manage your backlog, and create tasks and card walls.  The ScrumNinja gem allows you to easily get data out of ScrumNinja and use it in your Ruby applications.
 
+== Usage
+
+First:
+<tt>gem install scrumninja</tt>
+
+Then:
+
+<tt>my_projects = ScrumNinja.projects(my_api_key)</tt>
+
+You can generate your API key at scrumninja.com under your account settings. Return values are Hashies, and properties within the standard API XML can be accessed as follows:
+
+<tt>my_projects[0].name</tt>
+
+Other methods supported are:
+
+<tt>
+my_stories = ScrumNinja.project_stories(my_api_key,project_id) # returns stories in the given project's current sprint.
+
+sprints = ScrumNinja.project_backlog(my_api_key,project_id) # returns sprints (and related stories) in the given project's backlog.
+
+tasks = ScrumNinja.project_card_wall(my_api_key,project_id) # returns the card wall for the current sprint, represented as tasks.
+
+tasks = ScrumNinja.story_tasks(my_api_key,story_id) # returns the tasks for the specified story.
+</tt>
+
 == Compatibility
 
 ScrumNinja is developed against 1.9.2.
 
 = License
 
-Copyright (c) 2009, 2010, 2011 Javier Muniz Jordan
+Copyright (c) 2011 Javier Muniz
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
