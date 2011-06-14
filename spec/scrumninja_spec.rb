@@ -4,6 +4,7 @@ require 'helper'
 API_KEY = "a0d550405d37584fff59dd9e86cbe0cd88188e35"
 PROJECT_ID = 8991
 STORY_ID = 139444
+SPRINT_ID = 26248
 
 # The projects method
 describe ScrumNinja, ".projects" do
@@ -143,7 +144,7 @@ describe ScrumNinja, ".project_card_wall" do
   end
 end
 
-# The project_card_wall method
+# The project_roles method
 describe ScrumNinja, ".project_roles" do
   before do
     stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/project_roles.xml").
@@ -163,6 +164,29 @@ describe ScrumNinja, ".project_roles" do
     roles.should be_an Array
     puts roles[0]
     roles[0].user.first_name.should == "Javier"
+  end
+end
+
+# The project_sprint method
+describe ScrumNinja, ".project_sprint" do
+  before do
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/sprints/#{SPRINT_ID}.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('sprint.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+  end
+
+  it "should request the correct resource" do
+    ScrumNinja.project_sprint(API_KEY,PROJECT_ID,SPRINT_ID)
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/sprints/#{SPRINT_ID}.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+  end
+
+  it "should return the correct results" do
+    sprint = ScrumNinja.project_sprint(API_KEY,PROJECT_ID,SPRINT_ID)
+    sprint.should be_an Hash
+    puts sprint[0]
+    sprint.goal.should == "Learn how to use the system"
   end
 end
 
@@ -188,3 +212,5 @@ describe ScrumNinja, ".story_tasks" do
     puts tasks[0]
   end
 end
+
+
