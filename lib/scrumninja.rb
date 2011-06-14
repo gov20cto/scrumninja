@@ -13,6 +13,10 @@ module ScrumNinja
     client(api_key).projects
   end
   
+  def self.project(api_key,project_id)
+    client(api_key).project project_id
+  end
+  
   def self.project_stories(api_key,project_id)
     client(api_key).project_stories project_id
   end

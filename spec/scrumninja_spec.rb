@@ -28,6 +28,29 @@ describe ScrumNinja, ".projects" do
   end
 end
 
+# The project method
+describe ScrumNinja, ".project" do
+  before do
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('project.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+  end
+
+  it "should request the correct resource" do
+    ScrumNinja.project(API_KEY,PROJECT_ID)
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+  end
+
+  it "should return the correct results" do
+    project = ScrumNinja.project(API_KEY,PROJECT_ID)
+    project.should be_an Hash
+    project.name.should == "Tutorial Project"
+    puts project
+  end
+end
+
 # The project_stories method
 describe ScrumNinja, ".project_stories" do
   before do

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+  <created-by-user-id type="integer">8218</created-by-user-id>
+  <future-by-average type="boolean">true</future-by-average>
+  <id type="integer">8991</id>
+  <name>Tutorial Project</name>
+  <numeric-complexities type="yaml">--- 
+- "1"
+- "2"
+- "3"
+- "5"
+- "8"
+- "13"
+- "20"
+- "40"
+- "100"
+</numeric-complexities>
+  <open-source-url></open-source-url>
+  <page-views type="integer">0</page-views>
+  <ssl type="boolean" nil="true"></ssl>
+  <time-zone nil="true"></time-zone>
+  <total-page-views type="integer">8</total-page-views>
+  <track-only-story-points type="boolean">false</track-only-story-points>
+  <updated-at type="datetime">2011-06-10T01:03:23-07:00</updated-at>
+  <updated-by-user-id type="integer" nil="true"></updated-by-user-id>
+  <work-days type="yaml">--- 
+- 1
+- 2
+- 3
+- 4
+- 5
+</work-days>
+  <link href="http://scrumninja.com/projects/8991.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show" rel="self"/>
+  <link href="http://scrumninja.com/projects/8991/project_roles.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="project roles" rel="users"/>
+  <link href="http://scrumninja.com/projects/8991/stories.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="stories in current sprint" rel="stories"/>
+  <link type="text/plain" href="http://scrumninja.com/projects/8991/export?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="export" rel="self"/>
+  <link href="http://scrumninja.com/projects/8991/backlog/index.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="future stories" rel="stories"/>
+  <link href="http://scrumninja.com/projects/8991/sprints.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="sprint history" rel="sprints"/>
+</project>

@@ -11,6 +11,11 @@ module ScrumNinja
       response.projects
     end
     
+    def project(project_id,options={})
+      response = get "http://scrumninja.com/projects/#{project_id}.xml", options
+      response.project
+    end
+    
     def project_stories(project_id,options={})
       response = get "http://scrumninja.com/projects/#{project_id}/stories.xml", options
       response.stories
