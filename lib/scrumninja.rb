@@ -25,6 +25,10 @@ module ScrumNinja
     client(api_key).project_backlog project_id
   end
   
+  def self.project_sprints(api_key,project_id)
+    client(api_key).project_sprints project_id
+  end
+  
   def self.project_card_wall(api_key,project_id)
     client(api_key).project_card_wall project_id
   end

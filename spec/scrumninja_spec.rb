@@ -97,6 +97,29 @@ describe ScrumNinja, ".project_backlog" do
   end
 end
 
+# The project_sprints method
+describe ScrumNinja, ".project_sprints" do
+  before do
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/sprints.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('sprints.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+  end
+
+  it "should request the correct resource" do
+    ScrumNinja.project_sprints(API_KEY,PROJECT_ID)
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/sprints.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+  end
+
+  it "should return the correct results" do
+    sprints = ScrumNinja.project_sprints(API_KEY,PROJECT_ID)
+    sprints.should be_an Array
+    sprints[0].goal.should == "Learn how to use the system"
+    puts sprints[0]
+  end
+end
+
 # The project_card_wall method
 describe ScrumNinja, ".project_card_wall" do
   before do

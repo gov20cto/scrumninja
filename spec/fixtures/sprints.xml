@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprints type="array">
+  <sprint>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <ends-on type="date">2011-06-22</ends-on>
+    <goal>Learn how to use the system</goal>
+    <id type="integer">26248</id>
+    <number type="integer">0</number>
+    <project-id type="integer">8991</project-id>
+    <starts-on type="date">2011-06-09</starts-on>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <velocity type="integer">8</velocity>
+    <link href="http://scrumninja.com/projects/8991/sprints/26248.xml?api_key=a0d550405d37584fff59dd9e86cbe0cd88188e35" title="show (with stories)" rel="self"/>
+  </sprint>
+</sprints>

@@ -26,6 +26,11 @@ module ScrumNinja
       response.sprints
     end
     
+    def project_sprints(project_id,options={})
+      response = get "http://scrumninja.com/projects/#{project_id}/sprints.xml", options
+      response.sprints
+    end
+    
     def project_card_wall(project_id,options={})
       response = get "http://scrumninja.com/projects/#{project_id}/card_wall.xml", options
       response.tasks
