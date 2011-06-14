@@ -190,6 +190,29 @@ describe ScrumNinja, ".project_sprint" do
   end
 end
 
+# The project_story method
+describe ScrumNinja, ".project_story" do
+  before do
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/stories/#{STORY_ID}.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('story.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+  end
+
+  it "should request the correct resource" do
+    ScrumNinja.project_story(API_KEY,PROJECT_ID,STORY_ID)
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/stories/#{STORY_ID}.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+  end
+
+  it "should return the correct results" do
+    story = ScrumNinja.project_story(API_KEY,PROJECT_ID,STORY_ID)
+    story.should be_an Hash
+    puts story[0]
+    story.name.should == "Infrastructure for project"
+  end
+end
+
 # The story_tasks method
 describe ScrumNinja, ".story_tasks" do
   before do

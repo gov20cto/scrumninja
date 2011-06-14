@@ -41,6 +41,10 @@ module ScrumNinja
     client(api_key).project_sprint project_id, sprint_id
   end
   
+  def self.project_story(api_key,project_id,story_id)
+    client(api_key).project_story project_id, story_id
+  end
+  
   def self.story_tasks(api_key,story_id)
      client(api_key).story_tasks story_id
   end

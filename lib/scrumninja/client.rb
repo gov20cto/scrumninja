@@ -46,6 +46,11 @@ module ScrumNinja
       response.sprint
     end
     
+    def project_story(project_id,story_id,options={})
+      response = get "http://scrumninja.com/projects/#{project_id}/stories/#{story_id}.xml", options
+      response.story
+    end
+    
     def story_tasks(story_id,options={})
       response = get "http://scrumninja.com/stories/#{story_id}/tasks.xml", options
       response.tasks
