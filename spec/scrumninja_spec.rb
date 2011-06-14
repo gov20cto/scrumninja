@@ -24,7 +24,7 @@ describe ScrumNinja, ".projects" do
     projects = ScrumNinja.projects(API_KEY)
     projects.should be_an Array
     projects[0].name.should == "Tutorial Project"
-    puts projects[0].link
+    puts projects
   end
 end
 
@@ -47,7 +47,7 @@ describe ScrumNinja, ".project_stories" do
     stories = ScrumNinja.project_stories(API_KEY,PROJECT_ID)
     stories.should be_an Array
     stories[0].name.should == "Infrastructure for project"
-    puts stories[0].link
+    puts stories[0]
   end
 end
 
@@ -70,7 +70,7 @@ describe ScrumNinja, ".project_backlog" do
     sprints = ScrumNinja.project_backlog(API_KEY,PROJECT_ID)
     sprints.should be_an Array
     sprints[0].stories[0].name.should == "Reset Password"
-    puts sprints[0].stories[0].link
+    puts sprints[0].stories[0]
   end
 end
 
@@ -93,7 +93,30 @@ describe ScrumNinja, ".project_card_wall" do
     tasks = ScrumNinja.project_card_wall(API_KEY,PROJECT_ID)
     tasks.should be_an Array
     tasks[0].name.should == "configure database.yml"
-    puts tasks[0].link
+    puts tasks[0]
+  end
+end
+
+# The project_card_wall method
+describe ScrumNinja, ".project_roles" do
+  before do
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/project_roles.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('roles.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+  end
+
+  it "should request the correct resource" do
+    ScrumNinja.project_roles(API_KEY,PROJECT_ID)
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/project_roles.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+  end
+
+  it "should return the correct results" do
+    roles = ScrumNinja.project_roles(API_KEY,PROJECT_ID)
+    roles.should be_an Array
+    puts roles[0]
+    roles[0].user.first_name.should == "Javier"
   end
 end
 
@@ -116,6 +139,6 @@ describe ScrumNinja, ".story_tasks" do
     tasks = ScrumNinja.story_tasks(API_KEY,STORY_ID)
     tasks.should be_an Array
     tasks[0].name.should == "configure database.yml"
-    puts tasks[0].link
+    puts tasks[0]
   end
 end

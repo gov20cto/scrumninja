@@ -25,7 +25,11 @@ module ScrumNinja
     client(api_key).project_card_wall project_id
   end
   
+  def self.project_roles(api_key,project_id)
+    client(api_key).project_roles project_id
+  end
+  
   def self.story_tasks(api_key,story_id)
      client(api_key).story_tasks story_id
-   end
+  end
 end

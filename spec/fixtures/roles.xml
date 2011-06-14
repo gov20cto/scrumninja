@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-roles type="array">
+  <project-role>
+    <created-at type="datetime">2011-06-09T12:02:25-07:00</created-at>
+    <created-by-user-id type="integer">8218</created-by-user-id>
+    <id type="integer">13622</id>
+    <project-id type="integer">8991</project-id>
+    <receive-notification-email type="boolean">true</receive-notification-email>
+    <role>admin</role>
+    <updated-at type="datetime">2011-06-09T12:02:25-07:00</updated-at>
+    <updated-by-user-id type="integer">8218</updated-by-user-id>
+    <user-id type="integer">8218</user-id>
+    <user>
+      <email>jmvoodoo@gmail.com</email>
+      <first-name>Javier</first-name>
+      <id type="integer">8218</id>
+      <im nil="true"></im>
+      <initials>JM</initials>
+      <last-name>Muniz</last-name>
+      <location nil="true"></location>
+      <phone-number nil="true"></phone-number>
+    </user>
+  </project-role>
+</project-roles>

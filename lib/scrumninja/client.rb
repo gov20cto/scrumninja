@@ -26,6 +26,11 @@ module ScrumNinja
       response.tasks
     end
     
+    def project_roles(project_id,options={})
+      response = get "http://scrumninja.com/projects/#{project_id}/project_roles.xml", options
+      response.project_roles
+    end
+    
     def story_tasks(story_id,options={})
       response = get "http://scrumninja.com/stories/#{story_id}/tasks.xml", options
       response.tasks

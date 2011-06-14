@@ -1,8 +1,10 @@
 PATH
   remote: .
   specs:
-    scrumninja (0.1)
+    scrumninja (0.1.1)
       faraday_middleware (~> 0.6.0)
+      hashie (~> 1.0.0)
+      multi_xml (~> 0.2.0)
 
 GEM
   remote: http://rubygems.org/
