@@ -68,7 +68,7 @@ module ScrumNinja
       end_date =  sprints[0].ends_on.to_date
 
       burndown.start = start_date.to_time.to_i * 1000
-      burndown.length = (end_date - start_date).to_i + 1
+      burndown.sprint_length = (end_date - start_date).to_i + 1
       days_passed = (Date.today - start_date).to_i + 1
       # for each day in the sprint
       burndown.estimates = []

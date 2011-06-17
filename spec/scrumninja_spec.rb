@@ -243,6 +243,7 @@ describe ScrumNinja, ".project_burndown" do
     burndown.should be_an Hash
     burndown.start.should == 1307602800000
     burndown.estimates[0].should == 2.5
+    burndown.sprint_length.should == 14
   end
 end
 
