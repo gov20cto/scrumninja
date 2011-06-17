@@ -213,6 +213,39 @@ describe ScrumNinja, ".project_story" do
   end
 end
 
+# The project_burndown method
+describe ScrumNinja, ".project_burndown" do
+  before do
+    # project_burndown uses the cardwall
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/card_wall.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('card_wall.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+    
+    # project_backlog also uses the sprints
+    stub_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/sprints.xml").
+    with(:query => {:api_key => API_KEY}).
+    to_return(:body => fixture('sprints.xml'), :headers => {'Content-Type' => 'application/xml; charset=utf-8'})
+  end
+
+  it "should request the correct resource" do
+    ScrumNinja.project_burndown(API_KEY,PROJECT_ID)
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/card_wall.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+    
+    a_request(:get, "http://scrumninja.com/projects/#{PROJECT_ID}/sprints.xml").
+    with(:query => {:api_key => API_KEY}).
+    should have_been_made
+  end
+
+  it "should return the correct results" do
+    burndown = ScrumNinja.project_burndown(API_KEY,PROJECT_ID)
+    burndown.should be_an Hash
+    burndown.start.should == 1307602800000
+    burndown.estimates[0].should == 2.5
+  end
+end
+
 # The story_tasks method
 describe ScrumNinja, ".story_tasks" do
   before do

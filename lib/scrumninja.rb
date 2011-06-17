@@ -2,9 +2,9 @@ require 'scrumninja/client'
 require 'scrumninja/version'
 
 module ScrumNinja
-  # Alias for FccReboot::Client.new
+  # Alias for ScrumNinja::Client.new
   #
-  # @return [FccReboot::Client]
+  # @return [ScrumNinja::Client]
   def self.client(options={})
     ScrumNinja::Client.new(options)
   end
@@ -46,6 +46,10 @@ module ScrumNinja
   end
   
   def self.story_tasks(api_key,story_id)
-     client(api_key).story_tasks story_id
+    client(api_key).story_tasks story_id
+  end
+  
+  def self.project_burndown(api_key,project_id)
+    client(api_key).project_burndown project_id
   end
 end
